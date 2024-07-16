@@ -16,3 +16,6 @@ MIUI-Tweaker - Script for root users of MIUI, also suitable for others, but will
 
 # Useful Information
 1. The program has two locales: **Russian** and **English**. If the system language is **UK** or **RU**, the **RU-locale** is enabled. Otherwise, the **EN-locale** is used.
+2. What is **gms only mode** - it is a mode in the program that disables the application from the **google_gms** list, but leaves **com.google.android.gms** enabled (To avoid unnecessary problems associated with disabling Google Play Services disabled).
+3. You can configure the list of applications to be processed by the program:
+  
