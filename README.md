@@ -1,7 +1,11 @@
 # MIUI-Tweaker
 MIUI-Tweaker - Script for root users of MIUI, also suitable for others, but will be less useful tweaks
 
-![Project Preview](img/project_preview.png)
+### Preview of the project in English
+![English Project Preview](img/project_preview.png)
+
+### Preview of the project in Russian
+![Russian Project Preview](img/project_preview_ru.png)
 
 # How to use
 
