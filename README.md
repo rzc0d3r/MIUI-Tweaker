@@ -92,4 +92,4 @@ google_gms = [ # these applications will be turned on and off in step 5
 
 # Useful Information
 1. The program has two locales: **Russian** and **English**. If the system language is **UK** or **RU**, the **RU-locale** is enabled. Otherwise, the **EN-locale** is used.
-2. What is **gms only mode** - it is a mode in the program that disables the application from the **google_gms** list, but leaves **com.google.android.gms** enabled (To avoid unnecessary problems associated with disabling Google Play Services disabled).
+2. What is **gms only mode** - it is a mode in the program that disables the application from the ```google_gms``` list, but leaves **com.google.android.gms** enabled (To avoid unnecessary problems associated with disabling Google Play Services disabled).
