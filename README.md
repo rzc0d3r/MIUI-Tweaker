@@ -1,5 +1,5 @@
 # MIUI-Tweaker
-MIUI-Tweaker - script for root users of MIUI, also suitable for others, but will be less useful tweaks
+MIUI-Tweaker - Script for root users of MIUI, also suitable for others, but will be less useful tweaks
 
 # How to use
 
