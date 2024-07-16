@@ -227,7 +227,7 @@ while True:
             kill_app(app)
             print(LOCALE.disabling[0]+app)
             pm_disable(app)
-        print('Врубаю com.google.android.gms')
+        print(LOCALE.enabling[0]+'com.google.android.gms')
         pm_enable('com.google.android.gms')
 
     elif code == '6': # disable Xiaomi apps
@@ -250,16 +250,16 @@ while True:
         apps = get_all_apps()
         print(f'{LOCALE.will_be_optimized[0]} {str(len(apps))} {LOCALE.apps[0]}')
         mode = input(LOCALE.begin[0]).strip().lower()
-        if mode == 'да':
+        if mode == LOCALE.yes[0]:
             mode2 = input(f'\n{LOCALE.enable_manual_process_control[0]}').strip().lower()
             print(f'\n{LOCALE.beginning[0]}\n')          
             for app in apps:
                 print(LOCALE.optimiziting[0]+app)
                 opt_app(app)
                 print(LOCALE.optimization_complete[0])
-                if mode2 == LOCALE.yes:
+                if mode2 == LOCALE.yes[0]:
                     mode = input(LOCALE.optimization_continue[0]).strip().lower()
-                    if mode == LOCALE.no:
+                    if mode == LOCALE.no[0]:
                         break
                 print()
     
